@@ -20,6 +20,7 @@ header {
 	background-size: cover;
   background-image: url('./images/blog_header_bg.jpg');
   height: 350px;
+  margin-bottom: 40px;
 }
 
 ul.container {
@@ -42,6 +43,10 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: #f4f4f4;
+  /* vertival align  */
+  position: relative;
+  top: 25%;
+  transform: translateY(-50%);
 }
 
 img {
@@ -54,7 +59,11 @@ Typography
 
 p {
   font-family: 'Lato', sans-serif;
-  line-height: 1.4;
+  line-height: 1.68;
+}
+
+section {
+  margin-bottom: 40px;
 }
 
 /* ----------------------------------------

@@ -1,2 +1,4 @@
 # didactic-eureka
-testing the github desktop
+
+
+[Didactic Eureka Landing Page](https://celestelayne.github.io/didactic-eureka/)

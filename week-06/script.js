@@ -1,28 +1,19 @@
-const fruits = ['apples', 'mango', 'grapes', 'bananas'];
-// zero - indexed
+let nouns = ['heart', 'rainbow', 'ocean'];
+let verbs = ["look", "make", "continue"];
+let adjectives = ["good", "different", "possible"];
 
-for(let i = 0; i < fruits.length; i++){
-  let fruit = fruits[i];
-}
+// pick random element
+let randomNoun = nouns[Math.floor(Math.random() * nouns.length)]
+let randomVerb = verbs[Math.floor(Math.random() * verbs.length)]
+let randomAdj = adjectives[Math.floor(Math.random() * adjectives.length)]
 
-var age = 40;
-var height = 8;
-
-if(age < 8){
-  console.log("Check out the merry-go-round")
-} else if(age >= 8 && age < 65 && height > 4.5){
-  console.log("Check out the roller coaster")
-} else {
-  console.log("Check out the lazy river")
-}
-
-let noun = 'cat';
-let verb = 'run';
-let adjective = 'abundantly';
-
-// concatenation
-var sentence = 'My ' + noun + ' leaps ' + adjective + ' '
 
 // string templating
-// let sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
-console.log(sentence)
+
+console.log(randomNoun, randomVerb, randomAdj)
+
+console.log('My ' + randomNoun + ' leaps' + randomAdj + 'when I')
+
+console.log(
+  `My ${randomNoun} leaps ${randomAdj} when I ${randomVerb} a rainbow in the sky:`
+);
